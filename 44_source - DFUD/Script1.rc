@@ -1,0 +1,138 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Danish resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DAN)
+#ifdef _WIN32
+LANGUAGE LANG_DANISH, SUBLANG_DEFAULT
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON    DISCARDABLE     "icon2.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP2             BITMAP  DISCARDABLE     "DFUD.bmp"
+#endif    // Danish resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAIN DIALOG DISCARDABLE  0, 0, 211, 234
+STYLE DS_CENTER | WS_MINIMIZEBOX | WS_CAPTION | WS_SYSMENU
+CAPTION "DogFight Ultra Deluxe                      "
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_NAME,30,172,104,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_IP,30,190,67,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_UDPPORT_CLIENT,108,190,26,12,ES_AUTOHSCROLL
+    CONTROL         "Fullscreen",IDC_FULLSCREEN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,145,171,48,13
+    COMBOBOX        IDC_RESOLUTION,145,190,59,90,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Client",IDC_CLIENT,5,206,57,15
+    PUSHBUTTON      "Server",IDC_SERVER,77,206,57,15
+    PUSHBUTTON      "Quit",IDC_QUIT,145,206,59,15
+    LTEXT           "Name:",IDC_STATIC,6,174,22,8
+    LTEXT           "Ip:",IDC_STATIC,5,191,9,8
+    LTEXT           "Made by: Tommy Kobberø Andersen                      Version: 1.09",
+                    IDC_STATIC,5,224,205,8
+    CTEXT           ":",IDC_STATIC,99,190,8,8
+    CONTROL         106,IDC_STATIC,"Static",SS_BITMAP,7,4,197,158
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,4,2,204,163
+END
+
+IDD_SERVER_OPTION DIALOG DISCARDABLE  0, 0, 132, 86
+STYLE DS_SETFOREGROUND | DS_CENTER | WS_MINIMIZEBOX | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "DogFight Ultra Deluxe"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Back",IDC_BACK,6,68,43,15
+    PUSHBUTTON      "Launch",IDC_LAUNCH,83,68,43,15
+    LTEXT           "Buy Time:",IDC_STATIC,12,15,31,8
+    EDITTEXT        IDC_BUYTIME,51,14,66,12,ES_AUTOHSCROLL
+    GROUPBOX        "",IDC_STATIC,6,5,121,59
+    EDITTEXT        IDC_UDPPORT,51,31,66,12,ES_AUTOHSCROLL
+    LTEXT           "Udp Port:",IDC_STATIC,12,32,31,8
+    EDITTEXT        IDC_SYNCTIME,51,47,66,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "Sync time:",IDC_STATIC,12,48,33,8
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

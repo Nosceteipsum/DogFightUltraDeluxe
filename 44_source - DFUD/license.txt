@@ -1,0 +1,11 @@
+//-----------------------------------------------------//
+//						       //
+//  USE THIS SOFTWARE AT YOUR OWN RISK.		       //
+//  LOGICWORK HAVE NO LIABILITY FOR ANY POSSIBLE       //
+//  DAMAGE CAUSED BY Dog Fight Ultra Deluxe	       //
+//						       //
+//  THIS LICENSE MUST BE LOCATED IN THE SAME PLACE     //
+//  AS THE EXECUTABLE OF THE SOFTWARE AND MUST BE      //
+//  INCLUDED IN ANY DISTRIBUTIONS OF THIS SOFTWARE.    //
+//						       //
+//-----------------------------------------------------//
