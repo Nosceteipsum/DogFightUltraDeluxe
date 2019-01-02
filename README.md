@@ -6,7 +6,7 @@ A classic Lan multiplayer party game for Windows OS.
 ## Libraries used
 * OpenGl  (Graphic)  
 * WinSock (Network)  
-* Fmod    (Sound/Music)  
+* Directx sound (Sound/Music)  
 
 ## Note
 I have included a compiled version of DogFightUltraDeluxe in DogFightSuperUltraDeluxe:  
