@@ -1,2 +1,14 @@
 # DogFightUltraDeluxe
-Old school dogfight shooting
+Source code for Dog Fight Ultra Deluxe from 2003.  
+A classic Lan multiplayer party game for Windows OS.  
+![DogFightUltraDeluxe_Image](http://logicwork.net/timeline/sparetime/windows_dfud1.jpg)
+
+## Libraries used
+* OpenGl  (Graphic)  
+* WinSock (Network)  
+* Fmod    (Sound/Music)  
+
+## Note
+I have included a compiled version of DogFightUltraDeluxe in DogFightSuperUltraDeluxe:  
+https://store.steampowered.com/app/751530/Dog_Fight_Super_Ultra_Deluxe  
+Feel free to create pull-request and I will do my best to update DogFightSuperUltraDeluxe with the newest version. 
