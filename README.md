@@ -1,7 +1,7 @@
 # DogFightUltraDeluxe
 Source code for Dog Fight Ultra Deluxe from 2003.  
 A classic Lan multiplayer party game for Windows OS written in C++ with Visual Studio.  
-![DogFightUltraDeluxe_Image](http://logicwork.net/timeline/sparetime/windows_dfud1.jpg)
+![DogFightUltraDeluxe_Image](http://logicwork.net/images/github/windows_dfud1.jpg)
 
 ## Libraries used
 * OpenGl  (Graphic)  
